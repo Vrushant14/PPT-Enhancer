@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.google-btn,
+.phone-email {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.google-btn {
+    background-color: #DB4437; /* Google red */
+    color: #fff;
+    text-decoration: none;
+}
+
+.google-btn:hover {
+    background-color: #C13505; /* Darker shade of Google red */
+}
+
+.phone-email {
+    background-color: #007bff; /* Bootstrap blue */
+    color: #fff;
+    text-decoration: none;
+}
+
+.phone-email:hover {
+    background-color: #0056b3; /* Darker shade of Bootstrap blue */
+}
